@@ -1,0 +1,36 @@
+RESTART
+'../Model/Troickoe' 308
+/
+
+--REPORTFILE
+--ALL LOW
+--/
+
+SUMMARY	
+
+RECU
+
+
+Rate 1 month EXACT FIELD WELL end
+Freq 1  1  1
+
+EFOR WELL 'DD.MM.YYYY' MDL MDU RAD SKIN MULT
+
+EUNI METRes METRes /
+
+INCLUDE 
+  'INCL\Well.dat' /
+INCLUDE 
+  'INCL\perf.inc' /
+INCLUDE 
+  'INCL\WFRP.inc' /
+INCLUDE 
+  'INCL\event_0829_1.inc' /
+INCLUDE 
+  'INCL\exist_event.inc' /
+
+READ 1 JUL 2033 /
+
+STOP
+
+END
