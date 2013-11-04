@@ -1,0 +1,5 @@
+tnc Tr20131104_ourvar1LS200.data
+tnc Tr20131104_ourvar1LS250.data
+tnc Tr20131104_ourvar1LS300.data
+tnc Tr20131104_ourvar1LS350.data
+tnc Tr20131104_ourvar1LS400.data
